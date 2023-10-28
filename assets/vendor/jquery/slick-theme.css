@@ -40,6 +40,7 @@
     border: none;
     outline: none;
     background: transparent;
+    z-index: 5;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -154,8 +155,8 @@
 
     display: block;
 
-    width: 100px;
-    height: 100px;
+    width: 20px;
+    height: 20px;
     padding: 5px;
 
     cursor: pointer;
@@ -163,7 +164,7 @@
     color: transparent;
     border: 0;
     outline: none;
-    background: red;
+    background: transparent;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
