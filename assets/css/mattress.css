@@ -16,16 +16,13 @@
  /*-----------------------------*\
     mattress
 \*------------------------------*/
+.mattress{
+     margin-top: 120px;
+}
 /* top-image */
 .top-img-container{
     width: 100%;
-    padding-top: 330px;
-}
-.top-img-container:before{
-    content: '';
-    display: block;
-    width: 100%;
-    padding-top: 40%;
+    aspect-ratio: 16/9;
 }
 .top-img{
     width: 100%;
@@ -34,6 +31,9 @@
     background-size: contain;
     background-position: center;    
     background-repeat: no-repeat;
+
+    object-fit: cover;
+    object-position: center center;
 
     position:absolute;
     top: 0;
